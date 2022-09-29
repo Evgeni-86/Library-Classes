@@ -1,0 +1,67 @@
+.main_content {
+    display: flex;
+}
+
+.main_content > div {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aquamarine;
+    height: 10rem;
+    width: 10rem;
+}
+.main_content > div > div {
+    text-align: center;
+}
+
+.modal_addBook {
+    background-color: blue;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.modal_dialog {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(200, 200, 200, 0.9);
+    z-index: 99999;
+    pointer-events: none;
+    display: none;
+}
+.modal_dialog_target {
+    pointer-events: auto;
+    display: block;
+}
+
+.modal_dialog > div {
+    position: relative;
+    background-color: chartreuse;
+    margin: 10% 10%;
+    padding: 1rem;
+    align-items: flex-end;
+}
+.modal_dialog button {
+    background-color: blue;
+    color: white;
+}
+
+.delBook {
+    background-color: blue;
+    color: white;
+    width: 50%;
+    height: 20%;
+}
+
+.form_group {
+    text-align: end;
+}
+
+button {
+    width: 20%;
+}
